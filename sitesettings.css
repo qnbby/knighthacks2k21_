@@ -88,7 +88,16 @@ button:active {
     background-color: #ff0000;
     color: white;
 }
-.mpopup-main {padding: 2px 16px;}
+.mpopup-main {
+	width: 80%;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
 .mpopup-foot {
     padding: 2px 16px;
     background-color: #ff0000;
