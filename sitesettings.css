@@ -16,7 +16,19 @@ button {
 	transition-duration: 0.4s;
 }
 
-.button:hover {background-color: #3e8e41}
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
 
 .button:active {
   background-color: #3e8e41;
