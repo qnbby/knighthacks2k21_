@@ -8,7 +8,12 @@
 </head>
 
 <body id = "body">
+	<div class="header">
+		<div class="center">Pawfect </div>
+		<div class="center">Your Favorite Cat Generator</div>
+	</div>
 	<div class="container">
+<<<<<<< HEAD
 
 		<div class="center">
 			<a href="javascript:void(0);" id="mpopupLink" type="button">
@@ -49,6 +54,25 @@
 			img.height = 500;
 			img.width = 500;
 
+=======
+		<div class = "button_location">
+			<button onclick = "addImage()">
+				Generate
+			</button>
+		</div>
+		<div class = "center" id = "img_location">
+		</div>
+	</div>
+	
+	<script>
+		function addImage()
+		{
+			var img = new Image();
+			img.src = "ag4if0bqrty71.png"; 			
+			img.height = 500;
+			img.width = 500;
+
+>>>>>>> upstream/main
 			var dv = document.getElementById('img_location');
 			while (dv.hasChildNodes())
 			{
@@ -60,4 +84,7 @@
 	</script>
 </body>
 </html>
+<<<<<<< HEAD
+>>>>>>> upstream/main
+=======
 >>>>>>> upstream/main
