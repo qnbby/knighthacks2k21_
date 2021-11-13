@@ -1,7 +1,7 @@
 body {
 	background-image: url('background/backgroundimg.png');
 	background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 	
 }
 
@@ -43,6 +43,15 @@ button:active {
 	height: 1000px;
 	position: relative;
 	}
+
+.button_location {
+	margin: 0;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
 
 .center {
 	margin: 0;
@@ -101,6 +110,10 @@ button:active {
     from {top:-500px; opacity:0}
     to {top:0; opacity:1}
 }
+@-webkit-keyframes animatebot {
+    from {top:-500px; opacity:1}
+    to {top:0; opacity:.5}
+}
 
 /* close button style */
 .close {
@@ -113,4 +126,6 @@ button:active {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+    -webkit-animation-name: animatebot;
+    -webkit-animation-duration: 0.6s;
 }
