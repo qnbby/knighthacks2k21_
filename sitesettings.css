@@ -2,18 +2,20 @@ body {
 	background-image: url('backgroundimg.png');
 	background-repeat: no-repeat;
     background-size: auto;
+	
 }
 
 button {
-	
+	background-color:transparent;
     position: relative;
 	cursor: pointer;
     transition-duration: .3s;
     overflow: visible;
     box-sizing: border-box;
-    border: none;
+    border: solid 4px #ffffff;
     padding: 10px 22px;
-	transition-duration: 0.4s;
+	font: 30px FreeMono, monospace;
+	color: #ffffff;
 }
 
 button:hover,
