@@ -83,41 +83,28 @@ button:active {
     animation-duration: 0.4s
 }
 
-.mpopup-head {
+.mpopup-core{
     padding: 2px 16px;
-    background-color: #ff0000;
+    background-color: #ffffff;
     color: white;
 }
-.mpopup-main {
-	width: 80%;
-	margin: 0 auto;
-	background: rgba(255,255,255,0.2);
-    padding: 35px;
-    border: 2px solid #fff;
-    border-radius: 20px/50px;
-    background-clip: padding-box;
-    text-align: center;
-}
-.mpopup-foot {
-    padding: 2px 16px;
-    background-color: #ff0000;
-    color: #ffffff;
+
 }
 
 /* add animation effects */
 @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0}
+    from {top:-500px; opacity:0}
     to {top:0; opacity:1}
 }
 
 @keyframes animatetop {
-    from {top:-300px; opacity:0}
+    from {top:-500px; opacity:0}
     to {top:0; opacity:1}
 }
 
 /* close button style */
 .close {
-    color: white;
+    color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
