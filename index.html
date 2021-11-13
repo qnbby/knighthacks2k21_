@@ -3,10 +3,30 @@
 
 <head>
 	<title>Hello</title>
+	
+	<style>
+		.container { 
+		  height: 1000px;
+		  position: relative;
+		}
+
+		.center {
+		  margin: 0;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  -ms-transform: translate(-50%, -50%);
+		  transform: translate(-50%, -50%);
+		}
+	</style>
 </head>
 
 <body>
-	<a href = "letsgo.png"><button type="button">Click Me!</button> </a>
+	<div class="container">
+		<div class="center">
+			<a href = "letsgo.png"><button type="button">Click Me!</button> </a>
+		</div>
+	</div>
 </body>
 
 </html>
