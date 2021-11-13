@@ -38,6 +38,12 @@ button:active {
   transform: translateY(4px);
 }
 
+.header{
+	padding: 15px;
+	height:300px;
+	position:relative;
+}
+
 .container { 
 	padding: 15px;
 	height: 1000px;
